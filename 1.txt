@@ -1,0 +1,17 @@
+2 Office 2019/2021 系列 
+安装 
+从Office 2019 开始，除Mac系统提供了完整的安装包之外，微软公司仅提
+供在线安装的方式。在安装Office 2019系列或Office 2021系列之前，需要将旧
+版本删除。 
+从信息办网站下载Office 2019或Office 2021安装包，解压缩至同一目录下，
+以管理员模式运行“运行安装 office_visio_20xx.bat”后，系统会自动下载并安装
+Word、Excel、PowerPoint、Visio 产品，安装完成后即可关闭。 
+激活 
+连接校园网后，以管理员模式运行“激活office_visio_20xx.bat”。 
+或使用自行输入命令： 
+打开命令提示符（以管理员身份运行） 
+cd c:/program files/microsoft office/office16  
+cscript ospp.vbs /sethst:kms.ecust.edu.cn 
+cscript ospp.vbs /act 
+若激活失败，可查询信息办网站上的“常见错误自助手册”，或将失败页面截
+图，发送邮件至信息办沈老师 shenbin@ecust.edu.cn
